@@ -1,10 +1,10 @@
-.. auto sdk temp documentation master file, created by
-   sphinx-quickstart on Fri Jul 28 16:38:23 2017.
+.. SDK doc documentation master file, created by
+   sphinx-quickstart on Sun Jul 30 09:08:30 2017.
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to auto sdk temp's documentation!
-=========================================
+Welcome to SDK doc's documentation!
+===================================
 
 Contents:
 

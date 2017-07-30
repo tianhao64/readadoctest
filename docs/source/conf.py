@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 #
-# auto sdk temp documentation build configuration file, created by
-# sphinx-quickstart on Fri Jul 28 16:38:23 2017.
+# SDK doc documentation build configuration file, created by
+# sphinx-quickstart on Sun Jul 30 09:08:30 2017.
 #
 # This file is execfile()d with the current directory set to its
 # containing dir.
@@ -46,9 +46,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'auto sdk temp'
-copyright = '2017, vmware'
-author = 'vmware'
+project = 'SDK doc'
+copyright = '2017, tianhao'
+author = 'tianhao'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -74,7 +74,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = []
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
@@ -108,7 +108,7 @@ todo_include_todos = False
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
-#html_theme = 'alabaster'
+html_theme = 'alabaster'
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -200,7 +200,7 @@ html_static_path = ['_static']
 #html_search_scorer = 'scorer.js'
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'autosdktempdoc'
+htmlhelp_basename = 'SDKdocdoc'
 
 # -- Options for LaTeX output ---------------------------------------------
 
@@ -222,8 +222,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'autosdktemp.tex', 'auto sdk temp Documentation',
-     'vmware', 'manual'),
+    (master_doc, 'SDKdoc.tex', 'SDK doc Documentation',
+     'tianhao', 'manual'),
 ]
 
 # The name of an image file (relative to this directory) to place at the top of
@@ -252,7 +252,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'autosdktemp', 'auto sdk temp Documentation',
+    (master_doc, 'sdkdoc', 'SDK doc Documentation',
      [author], 1)
 ]
 
@@ -266,8 +266,8 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'autosdktemp', 'auto sdk temp Documentation',
-     author, 'autosdktemp', 'One line description of project.',
+    (master_doc, 'SDKdoc', 'SDK doc Documentation',
+     author, 'SDKdoc', 'One line description of project.',
      'Miscellaneous'),
 ]
 
